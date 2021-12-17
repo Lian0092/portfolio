@@ -460,6 +460,33 @@ iframe {
 /* ----------------------------------------------------------------------
 					Start Menu page CSS 
 ------------------------------------------------------------------------*/
+/* add menu button basic settings */
+.menu-button ul li{
+	display: inline-block;
+}
+
+.menu-button ul li a{
+	color: black;
+	display: block;
+	width: 80%;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em;
+	margin: auto;
+}
+
+.menu-button ul li a:hover,
+.menu-button ul li a:focus{
+	color: #8A231C;
+	transform: scale(1.2);
+	transition: transform 0.2s;
+	background-color: #C5C2C2;
+}
+/* Add the color of difference pages */
+.menu-focus{
+	background-color: #C5C2C2;
+}
 
 
 /* ----------------------------------------------------------------------
