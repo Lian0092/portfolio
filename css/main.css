@@ -255,7 +255,7 @@ p {
 	background-color: #191515;
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	grid-template-rows: repeat(7, auto);
+	grid-template-rows: repeat(9, auto);
 }
 
 /* size the logo */
@@ -484,7 +484,7 @@ iframe {
 	/* add grid template */
 	.nav-part ul {
 		display: grid;
-		grid-template-columns: repeat(7, 20% 20% 20% 20% 6% 6% 6%);
+		grid-template-columns: repeat(9, 13% 13% 13% 13% 13% 13% 6% 6% 6%);
 		margin-bottom: 1em;
 	}
 
@@ -493,9 +493,9 @@ iframe {
 		width: 60%;
 	}
 
-	.nav-part ul li:nth-child(5),
-	.nav-part ul li:nth-child(6),
-	.nav-part ul li:nth-child(7) {
+	.nav-part ul li:nth-child(7),
+	.nav-part ul li:nth-child(8),
+	.nav-part ul li:nth-child(9) {
 		width: 40px;
 	}
 
