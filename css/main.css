@@ -513,6 +513,42 @@ iframe {
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
+/* ----------------------------------------------------------------------
+					Start Menu page CSS 
+------------------------------------------------------------------------*/
+
+.about-page{
+	max-width: 90%;
+	margin: auto;
+}
+.about-page h3{
+	display: block;
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+}
+.about-page h4{
+	display: block;
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+}
+.about-p1{
+	max-width: 800px;
+	margin: auto;
+	padding: 1em;
+}
+.about-img2{
+	display: block;
+	max-width: 800px;
+	margin: auto;
+}
+.about-p2{
+	max-width:50%;
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+}
 
 /* ----------------------------------------------------------------------
 					Start media screen min-1000px
