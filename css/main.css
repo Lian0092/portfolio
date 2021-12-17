@@ -464,16 +464,23 @@ iframe {
 .menu-button ul li{
 	display: inline-block;
 }
-
+.menu-button{
+	max-width: 80%;
+	margin: auto;
+}
 .menu-button ul li a{
 	color: black;
 	display: block;
-	width: 80%;
+	width: 100%;
 	text-decoration: none;
 	font-weight: bold;
 	text-align: center;
-	padding: 1em;
+	padding: 0.5em;
 	margin: auto;
+}
+.menu-button ul{
+	display: grid;
+	grid-template-columns:repeat(4, 1fr);
 }
 
 .menu-button ul li a:hover,
@@ -488,6 +495,24 @@ iframe {
 	background-color: #C5C2C2;
 }
 
+/* add image style settings */
+.menu-list img{
+	display: inline-block;
+	width: 250px;
+}
+
+.menu-list{
+	max-width: 80%;
+	margin: auto;
+	display: grid;
+	background-color:#C5C2C2 ;
+	grid-template-columns: repeat(1, 1fr);
+}
+.menu-list img{
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
 
 /* ----------------------------------------------------------------------
 					Start media screen min-1000px
@@ -602,5 +627,23 @@ iframe {
 		grid-area: line6;
 	}
 
+	/* 							start Menu Page CSS seting  						*/
+	/* change the menu page container maxwidth */
+	.menu-button{
+		max-width: 800px;
+		margin: auto;
+	}
+	.menu-list{
+		max-width: 800px;
+		margin: auto;
+	}
+	/* add img grid for desktop vision */
+	.menu-list img{
+		width: 200px;
+	}
 
+	.menu-list{
+		display: grid;
+		grid-template-columns:repeat(3, 1fr);
+	}
 }
